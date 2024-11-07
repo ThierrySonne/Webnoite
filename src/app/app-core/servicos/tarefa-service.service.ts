@@ -9,7 +9,7 @@ export class TarefaService {
 
   constructor() { }
 
-  addtarefa(tarefa: string){
+  addTarefa(tarefa: string){
     this.tarefas.push(tarefa);
     console.log("TAREFAS ADICIONADAS",
       this.tarefas);
